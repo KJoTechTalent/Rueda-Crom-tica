@@ -1,0 +1,151 @@
+:root {
+  --Green: #01ff02;
+  --Red: #ff0000;
+  --Blue: #0000ff;
+  --Magenta: #ff00ff;
+  --Cian: #01ffff;
+  --Yellow: #ffff02;
+}
+body {
+  width: 100vw;
+  height: 90vh;
+  margin: 0px;
+}
+#generalContainer {
+  position: absolute;
+  left: 5vw;
+  width: 90vw;
+  height: 90vh;
+  margin-top: 20px;
+}
+#croma {
+  position: relative;
+  width: 40vw;
+  height: 90vh;
+}
+#mixCroma {
+  position: relative;
+  width: 45vw;
+  height: 90vh;
+  margin-left: 248px;
+  top: -658px;
+  left: 400px;
+}
+#primaryColors {
+  position: relative;
+  width: 45vw;
+  height: 30vh;
+  padding-top: 5vh;
+}
+#secondaryColors {
+  position: relative;
+  width: 45vw;
+  height: 55vh;
+}
+.circle {
+  width: 200px;
+  height: 200px;
+  mix-blend-mode: screen;
+}
+.cir {
+  border-radius: 50%;
+}
+.red {
+  background-color: var(--Red);
+}
+.blue {
+  background-color: var(--Blue);
+}
+.green {
+  background-color: var(--Green);
+}
+.circ-one {
+  position: relative;
+  top: 170px;
+  left: 180px;
+}
+.circ-two {
+  position: relative;
+  top: 80px;
+  left: 110px;
+}
+.circ-three {
+  position: relative;
+  top: -120px;
+  left: 250px;
+}
+.text {
+  font-size: 35px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.primary {
+  position: relative;
+  top: 20px;
+}
+
+.circ {
+  width: 80px;
+  height: 80px;
+}
+.mixRed {
+  position: relative;
+  top: 40px;
+  left: 10px;
+}
+.mixBlue {
+  position: relative;
+  top: -40px;
+  left: 130px;
+}
+.mixGreen {
+  position: relative;
+  top: -120px;
+  left: 255px;
+}
+.mixColors {
+  background-color: beige;
+  position: relative;
+  width: 45vw;
+  height: 12vh;
+  margin-top: 3vh;
+}
+.firstColorMixPosition {
+  position: relative;
+  left: 10px;
+}
+.plusPosition {
+  position: relative;
+  top: -60px;
+  left: 100px;
+}
+.secondColorMixPosition {
+  position: relative;
+  top: -121px;
+  left: 130px;
+}
+.equalPosition {
+  position: relative;
+  top: -180px;
+  left: 240px;
+}
+.mixMagenta {
+  background-color: var(--Magenta);
+  position: relative;
+  top: -242px;
+  left: 300px;
+}
+.mix{
+    position: relative;
+    top: -242px;
+    left: 300px;
+}
+.magenta{
+    background-color: var(--Magenta);
+}
+.cian{
+    background-color: var(--Cian);
+}
+.yellow{
+    background-color: #ffff02;
+}
